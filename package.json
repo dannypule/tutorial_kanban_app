@@ -1,0 +1,24 @@
+{
+  "name": "kanban_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "b": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannypule/tutorial_kanban_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannypule/tutorial_kanban_app/issues"
+  },
+  "homepage": "https://github.com/dannypule/tutorial_kanban_app#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
+}

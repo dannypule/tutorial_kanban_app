@@ -1,0 +1,1 @@
+Another way to serve the contents of the directory through a server, such as serve (npm i serve -g). In this case, execute 'serve' at the output directory and head to localhost:3000 at your browser. You can configure the port through the --port parameter.
