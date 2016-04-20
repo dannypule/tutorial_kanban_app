@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dannypule/tutorial_kanban_app#readme",
   "devDependencies": {
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "webpack-merge": "^0.12.0"
   }
 }

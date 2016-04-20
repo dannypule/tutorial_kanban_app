@@ -45,6 +45,13 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var component = __webpack_require__(1);
+	// var componentTwo = require('./componentTwo');
+	// var componentThree = require('./componentThree');
+
+	// var div = componentThree();
+
+	// div.appendChild(component());
+	// div.appendChild(componentTwo());
 
 	document.body.appendChild(component());
 
@@ -54,11 +61,13 @@
 /***/ function(module, exports) {
 
 	module.exports = function(){
-	    var element = document.createElement('h1');
+	    var el = document.createElement('h3');
 
-	    element.innerHTML = 'Hello world';
+	    el.innerHTML = 'Hello world';
 
-	    return element;
+	    el.style.color = '#333';
+
+	    return el;
 	};
 
 

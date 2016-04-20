@@ -1,7 +1,9 @@
 module.exports = function(){
-    var element = document.createElement('h1');
+    var el = document.createElement('h3');
 
-    element.innerHTML = 'Hello world';
+    el.innerHTML = 'Hello world';
 
-    return element;
+    el.style.color = '#333';
+
+    return el;
 };
