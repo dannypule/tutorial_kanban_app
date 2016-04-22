@@ -1,4 +1,5 @@
 var component = require('./component');
+require('./main.css');
 // var componentTwo = require('./componentTwo');
 // var componentThree = require('./componentThree');
 
